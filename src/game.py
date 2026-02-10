@@ -1,3 +1,4 @@
+# game.py
 from player import Player
 
 class Game:
@@ -5,7 +6,7 @@ class Game:
         self.is_game_over = False
         self.player = Player()
 
-        # ✅ REQUIRED initializations
+        # initializations
         self.timer = 0
         self.fruits = []
         self.bolts = []
@@ -33,3 +34,4 @@ class Game:
     def draw(self):
         screen.clear()
         self.player.draw()
+
