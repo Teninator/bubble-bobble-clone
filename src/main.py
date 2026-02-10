@@ -1,3 +1,5 @@
+# main.py
+
 from app import App
 from screens.menu import MenuScreen
 from input import build_input_state
@@ -14,3 +16,4 @@ def update():
 
 def draw():
     app.draw()
+
