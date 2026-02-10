@@ -1,3 +1,5 @@
+# app.py
+
 class App:
     def __init__(self):
         self.screen = None
@@ -10,3 +12,4 @@ class App:
 
     def draw(self):
         self.screen.draw()
+
