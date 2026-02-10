@@ -1,3 +1,5 @@
+# player.py
+
 class Player(GravityActor):
     def update(self, input_state):
         super().update(self.health > 0)
@@ -33,3 +35,4 @@ class Player(GravityActor):
             self.blowing_orb.blown_frames = min(120, self.blowing_orb.blown_frames + 4)
         else:
             self.blowing_orb = None
+
