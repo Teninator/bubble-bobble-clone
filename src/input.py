@@ -1,3 +1,5 @@
+# input.py
+
 from dataclasses import dataclass
 
 @dataclass
@@ -18,6 +20,7 @@ def build_input_state():
     space = keyboard.space
     p = keyboard.p
 
+    # inputs
     state = InputState(
         left=keyboard.left,
         right=keyboard.right,
@@ -30,3 +33,4 @@ def build_input_state():
     _prev["space"] = space
     _prev["p"] = p
     return state
+
